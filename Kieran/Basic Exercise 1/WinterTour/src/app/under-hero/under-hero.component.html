@@ -6,14 +6,11 @@
   <hr class="col-2 mt-3 mb-5 bg-danger" />
 
   <div class="card-deck">
-    <div class="card" style="width: 18rem;" *ngFor="let i of bestAtArr">
-      <img src="{{ i[0] }}" class="card-img-top" alt="..." />
-
-      <div class="card-body">
-        <h5 class="card-title text-center font-weight-bold">{{ i[1] }}</h5>
-
-        <p class="card-text text-center">{{ i[2] }}</p>
-      </div>
-    </div>
+    <app-under-hero-items
+      *ngFor="let i of bestAtArr"
+      imgSrc="{{ i[0] }}"
+      title="{{ i[1] }}"
+      smallText="{{ i[2] }}"
+    ></app-under-hero-items>
   </div>
 </div>

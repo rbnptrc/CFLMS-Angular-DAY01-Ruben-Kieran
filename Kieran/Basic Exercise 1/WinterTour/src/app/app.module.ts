@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { UnderHeroComponent } from './under-hero/under-hero.component';
 import { WinterTipsComponent } from './winter-tips/winter-tips.component';
+import { WinterTipsItemsComponent } from './winter-tips-items/winter-tips-items.component';
+import { UnderHeroItemsComponent } from './under-hero-items/under-hero-items.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { WinterTipsComponent } from './winter-tips/winter-tips.component';
     NavbarComponent,
     HeroComponent,
     UnderHeroComponent,
-    WinterTipsComponent
+    WinterTipsComponent,
+    WinterTipsItemsComponent,
+    UnderHeroItemsComponent
   ],
   imports: [
     BrowserModule,
