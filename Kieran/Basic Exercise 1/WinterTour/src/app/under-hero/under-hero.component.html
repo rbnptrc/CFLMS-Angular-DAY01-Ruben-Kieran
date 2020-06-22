@@ -1,11 +1,11 @@
 <div
-  class="container-fluid d-flex flex-column justify-content-center align-content-center"
+  class="container-fluid d-flex flex-column justify-content-center align-content-center underHero"
 >
-  <h1 class="text-center">Why We're the Best</h1>
+  <h1 class="text-center text-light mt-5">Why We're the Best</h1>
 
   <hr class="col-2 mt-3 mb-5 bg-danger" />
 
-  <div class="card-deck">
+  <div class="card-deck mx-auto mb-5">
     <app-under-hero-items
       *ngFor="let i of bestAtArr"
       imgSrc="{{ i[0] }}"

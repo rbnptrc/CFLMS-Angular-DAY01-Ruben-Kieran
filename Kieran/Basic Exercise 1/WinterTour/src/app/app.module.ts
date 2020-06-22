@@ -9,6 +9,8 @@ import { UnderHeroComponent } from './under-hero/under-hero.component';
 import { WinterTipsComponent } from './winter-tips/winter-tips.component';
 import { WinterTipsItemsComponent } from './winter-tips-items/winter-tips-items.component';
 import { UnderHeroItemsComponent } from './under-hero-items/under-hero-items.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { UnderHeroItemsComponent } from './under-hero-items/under-hero-items.com
     UnderHeroComponent,
     WinterTipsComponent,
     WinterTipsItemsComponent,
-    UnderHeroItemsComponent
+    UnderHeroItemsComponent,
+    HomePageComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,

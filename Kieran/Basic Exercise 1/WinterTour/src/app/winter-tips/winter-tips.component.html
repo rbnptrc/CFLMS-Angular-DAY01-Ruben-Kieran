@@ -1,9 +1,9 @@
-<div class="container-fluid">
-  <h1 class="text-center mt-4">Best Winter Trips</h1>
+<div class="container-fluid winterTips">
+  <h1 class="text-center pt-5">Best Winter Trips</h1>
 
   <hr class="col-2 bg-danger" />
 
-  <div class="card-deck mx-auto">
+  <div class="card-deck">
     <app-winter-tips-items
       *ngFor="let i of winterTripArr"
       imgSrc="{{ i[0] }}"
