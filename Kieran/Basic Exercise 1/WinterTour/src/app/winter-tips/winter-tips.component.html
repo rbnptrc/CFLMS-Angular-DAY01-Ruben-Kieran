@@ -1,0 +1,14 @@
+<div class="container-fluid winterTips">
+  <h1 class="text-center pt-5">Best Winter Trips</h1>
+
+  <hr class="col-2 bg-danger" />
+
+  <div class="card-deck">
+    <app-winter-tips-items
+      *ngFor="let i of winterTripArr"
+      imgSrc="{{ i[0] }}"
+      price="{{ i[1] }}"
+      title="{{ i[2] }}"
+    ></app-winter-tips-items>
+  </div>
+</div>
