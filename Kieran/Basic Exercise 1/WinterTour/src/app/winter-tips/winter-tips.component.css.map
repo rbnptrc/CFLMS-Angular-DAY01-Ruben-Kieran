@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,gBAAgB,EAAe,wBAAO;CACvC",
+    "sources": [
+        "winter-tips.component.scss"
+    ],
+    "names": [],
+    "file": "winter-tips.component.css"
+}
